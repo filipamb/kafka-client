@@ -11,8 +11,8 @@ import java.util.Arrays;
 import java.util.Properties;
 
 public class SimpleConsumer {
-    private final static String TOPIC = "get-tariff";
-    private final static String BOOTSTRAP_SERVERS = "10.255.1.42:9092";
+    private final static String TOPIC = "TOPIC";
+    private final static String BOOTSTRAP_SERVERS = "HOST:9092";
 
     private static KafkaConsumer<Long, String> createConsumer() {
         Properties props = new Properties();
